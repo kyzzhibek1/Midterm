@@ -1,0 +1,146 @@
+/* Общие стили */
+
+    body {
+     
+       
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стили для навигации */
+.navbar {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Стили для заголовка */
+.jumbotron {
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+}
+
+/* Стили для социальных ссылок и стрелки вниз */
+.ul-social {
+    list-style: none;
+    padding: 0;
+}
+
+.li-social-links {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social {
+    color: #fff;
+    font-size: 24px;
+}
+
+#down-arrow {
+    margin-top: 20px;
+}
+
+#down-arrow a {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Стили для разделов (About, Experience, Education, Projects, Skills, Contact) */
+.content-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.content-header h2 {
+    font-size: 24px;
+}
+
+.content-body {
+    padding: 20px;
+}
+
+/* Стили для карточек с опытом */
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.card p {
+    margin: 0;
+}
+
+/* Стили для навыков */
+.ul-skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.li-skills {
+    background-color: #333;
+    color: #fff;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Стили для формы контакта */
+.contact form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact input[type="email"],
+.contact textarea,
+.contact button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact input[type="email"],
+.contact textarea {
+    background-color: #f9f9f9;
+}
+
+.contact button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Стили для футера */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
